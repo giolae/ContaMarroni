@@ -45,10 +45,10 @@ void displayUpdateLayout1() {
   Serial.print(F("marroniCorrente: ") );
   Serial.println( marroniCorrente);
 
-  Serial.print(F("marroniGrammi") );
+  Serial.print(F("marroniGrammi: ") );
   Serial.println(marroniGrammi);
 
-  Serial.print(F("marroniPezzatura") );
+  Serial.print(F("marroniPezzatura: ") );
   Serial.println(marroniPezzatura );
 
 #endif

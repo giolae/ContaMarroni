@@ -16,7 +16,9 @@ float readWeight() {
   // times = how many readings to do
   // float get_units(byte times = 1);
 
-  _grammi = bilancia.get_units(3);
+ Serial.print(F("start Reading: "));
+ 
+  _grammi = bilancia.get_units(5);
 
   Serial.print(F("Reading: "));
   Serial.print(_grammi, 2);
